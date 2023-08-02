@@ -1,19 +1,22 @@
 <html>
-	<head>
-		<title>{{t}}</title>
-		<link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='assets/style.css')}}" >
-		<link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='assets/emoji.css')}}" >
-		<script src="{{ url_for('static',filename='assets/twemoji.min.js')}}"></script>  
-		<script src="{{ url_for('static',filename='assets/emoji.js')}}"></script>
-		<style>
-			body {
-				background-color:white;
-			}
-			.credits {
-				margin:10px;
-			}
-		</style>
-	</head>
+
+<head>
+	<title>{{t}}</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='assets/style.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='assets/emoji.css')}}">
+	<script src="{{ url_for('static',filename='assets/twemoji.min.js')}}"></script>
+	<script src="{{ url_for('static',filename='assets/emoji.js')}}"></script>
+	<style>
+		body {
+			background-color: white;
+		}
+
+		.credits {
+			margin: 10px;
+		}
+	</style>
+</head>
+
 <body>
 	<h1>{{ h }}</h1>
 	<ul>
@@ -25,13 +28,14 @@
 	<hr>
 	<h3>Credits :</h3>
 	<div class='credits'>
-		<b>Prashant Shahi</b>
+		<b>Risto Aarniviita</b>
 		<p>
 			<span>Email:</span>
-			<a href="mailto:me@prashantshahi.dev">me@prashantshahi.dev</a>
+			<a href="mailto:risto19941024winner@gmail.com">risto19941024winner@gmail.com</a>
 		</p>
 	</div>
 	<hr>
 	<p>Made with ❤️ from Karnali, Nepal ☕</p>
 </body>
+
 </html>

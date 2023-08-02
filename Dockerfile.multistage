@@ -1,6 +1,6 @@
 FROM --platform=$BUILDPLATFORM python:3.9-alpine3.15
 
-LABEL MAINTAINER "Prashant Shahi <me@prashantshahi.dev>"
+LABEL MAINTAINER "Risto Aarniviita <risto19941024winner@gmail.com>"
 
 RUN pip install --upgrade pip
 

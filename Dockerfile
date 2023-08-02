@@ -2,7 +2,7 @@
 
 FROM python:3.10-alpine3.15
 
-LABEL MAINTAINER "Prashant Shahi <me@prashantshahi.dev>"
+LABEL MAINTAINER "Risto Aarniviita <risto19941024winner@gmail.com>"
 
 RUN pip install --upgrade pip
 
