@@ -6,7 +6,7 @@ To-Do-List is mini-project made with Flask and MongoDB. Dockerfile is also avail
 ```sh
 	Flask : Python Based mini-Webframework
 	MongoDB : Database Server
-	Pymongo : Database Connector ( For creating connectiong between MongoDB and Flask )
+	Pymongo : Database Connector ( For creating connection between MongoDB and Flask )
 	HTML5 (jinja2) : For Form and Table
 ```
 
@@ -67,8 +67,4 @@ Stopping the application
 
 ## Screenshot :
 
-![Screenshot of the Output](https://github.com/CoolBoi567/ToDo-List-using-Flask-and-MongoDB/blob/master/static/images/screenshot.jpg?raw=true "Screenshot of Output")
-
-Thanks to Twitter for emoji support with [Twemoji](https://github.com/twitter/twemoji).
-
-Made with ❤️ from Nepal 🇳🇵
+![Screenshot of the Output](screenshot.jpg)
